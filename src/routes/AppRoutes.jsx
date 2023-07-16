@@ -16,7 +16,7 @@ import { ProtectedRoute } from "./ProtectedRoute";
 export const router = createBrowserRouter([
     {
         path: "/",
-        element:                                //Esta anidacion es para validar si esta loguiado
+        element:                                //Esta anidacion es para validar si esta login
         <ProtectedRoute>  
             <ViewPaginacion />
         </ProtectedRoute>,
